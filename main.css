@@ -108,3 +108,15 @@ footer > div, footer > nav {
     padding-right: 0;
   }
 }
+
+.masonry { /* Masonry container */
+  column-count: 2;
+  column-gap: 1em;
+}
+
+@media only screen and (max-width: 700px) {
+  .masonry { /* Masonry container */
+    column-count: 1;
+  }
+}
+
