@@ -22,22 +22,7 @@
     body {
       height: 100vh;
     }
-    header {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-    }
-    header, header > nav > a {
-      color: white;
-    }
-    header > nav > a > img.logo {
-      filter: invert();
-    }
-    .container {
-      height: 60%;
-      overflow: hidden;
-    }
+
     .container > img {
       position: relative;
       width: 100%;
@@ -120,40 +105,34 @@
 </head>
 
 <body>
-  <div class='container'>
-    <img src='../images/index/portraits.jpg' />
-  </div>
-  <header>
-    <h1 id='name' class='title'>
-      <a href="../">May Shi</a>
-    </h1>
-    <nav>
-      <a class='selected' href="../">Work</a>
-      <a href="../contact.html">Contact</a>
-      <a target='_blank' href="https://www.etsy.com/ca/shop/maayshi">Store</a>
-      <a target='_blank' href="https://www.instagram.com/mayshi.jpg/">
-        <img class='logo' src="../icons/insta.png" />
-      </a>
-      <a target='_blank' href="https://www.youtube.com/channel/UCFnTvHWysWKHP0TmbSGT8LQ">
-        <img class='logo' src="../icons/youtube.png" />
-      </a>
-      <a target='_blank' href="https://www.linkedin.com/in/mmayshi">
-        <img class='logo' src="../icons/linkedin.png" />
-      </a>
-      <a target='_blank' href="https://www.behance.net/mayshi">
-        <img class='logo' src="../icons/behance.png" />
-      </a>
-    </nav>
-  </header>
+<header>
+  <h1 id='name' class='title'>
+    <a href="./">May Shi</a>
+  </h1>
+  <nav>
+    <a class='selected' href="./">Work</a>
+    <a href="./contact.html">Contact</a>
+    <a target='_blank' href="https://www.etsy.com/ca/shop/maayshi">Store</a>
+    <a target='_blank' href="https://www.instagram.com/mayshi.jpg/">
+      <img class='logo' src="../icons/insta.png" />
+    </a>
+    <a target='_blank' href="https://www.youtube.com/channel/UCFnTvHWysWKHP0TmbSGT8LQ">
+      <img class='logo' src="../icons/youtube.png" />
+    </a>
+    <a target='_blank' href="https://www.linkedin.com/in/mmayshi">
+      <img class='logo' src="../icons/linkedin.png" />
+    </a>
+    <a target='_blank' href="https://www.behance.net/mayshi">
+      <img class='logo' src="../icons/behance.png" />
+    </a>
+  </nav>
+</header>
   <main>
-    <content>
-      <div>
-        <p id='work-name'>
-          Portraits
-        </p>
-      </div>
-    </content>
-
+    <div>
+      <p id='work-name'>
+        Portraits
+      </p>
+    </div>
     <div class="masonry">
       <article>
         <img src='../images/work/portraits/Portraits 01.jpg' />
